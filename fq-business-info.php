@@ -174,6 +174,7 @@ function are_we_open($hours=array()) {
 			array('0:00','0:00'), // saturday
 			array('0:00','0:00'), // sunday
 		);
+		$hours = process_hours_from_text(get_option('business-hours'));
 	}
 	
 	$now = time();
