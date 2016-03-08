@@ -29,6 +29,20 @@ function fq_business_info_init() {
 		$settings->page_intro	= 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dapibus pulvinar lacus, id pharetra ipsum ultricies quis. Nullam a placerat dui. In turpis turpis, ultricies vel sodales pulvinar, rhoncus id sapien. Aenean egestas ante quis libero vestibulum porta. Sed faucibus id nibh ac molestie. Sed blandit urna a molestie ultricies. Duis scelerisque varius enim, a dapibus sem aliquet eu. Ut in turpis sed neque facilisis vulputate eu id ex. Nam gravida tempus lectus quis elementum.';
 		$settings->settings	= array(
 			array(
+				'label' => 'Phone #',
+				'name' => 'business-phone',
+				'type' => 'text',
+				'class' => 'regular-text',
+				'value' => '',
+			),
+			array(
+				'label' => 'Address',
+				'name' => 'business-address',
+				'type' => 'text',
+				'class' => 'regular-text',
+				'value' => '',
+			),
+			array(
 				'label' => 'Business Hours',
 				'name' => 'business-hours',
 				'type' => 'textarea', // select, radio, checkbox, textarea, upload, OR text
